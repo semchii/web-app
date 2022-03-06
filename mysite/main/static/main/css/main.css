@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: #40e0d0;
+    height: 200vh;
+}
+
+aside{
+    float: left;
+    background: #f5fffa;
+    width: 20%;
+    padding: 2.5%;
+    height: 200vh;
+    color: #708090;
+    border-right: 1px solid #dcdcdc;
+}
+
+aside img {
+    width: 200px;
+    float: left;
+}
+
+aside ul {
+    list-style: none;
+}
+
+
+aside ul li {
+     margin-top: 20px;
+     color: #708090;
+     display: block;
+     transition: transform .6s ease;
+}
+
+aside ul li:hover, aside ul a:hover  {
+     color: #42ddf5;
+     text-decoration: none;
+     transform: scale(1.05);
+}
+
+main .features {
+     float: left;
+     color: #708090;
+     margin-top: 100px;
+     text-align: justify;
+     width: 75%;
+}
+
+main .features h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+main .features p {max-width: 700px; margin: 20px auto}
+
+main .features a {
+    margin: 20px 40%;
+
+}
+
+.alert-muted {
+    float: left;
+    clear: both;
+    margin: 20px 50%;
+    text-align: justify;
+
+}
+
+form {
+    margin-left: 24%;
+    width: 500px;
+    margin-top: 50px;
+    border-radius: 2%;
+    border: #40e0d0;
+}
+
+main .features p img {
+    width: 700px;
+    float: left;
+    margin-bottom: 30px;
+
+}
+.contacts-details {
+     float: left;
+     color: #708090;
+     margin-top: 100px;
+     text-align: center;
+     width: 75%;
+
+}
+
+.map-responsive iframe{
+    position: absolute;
+    left: 35%;
+    top: 75%;
+    width: 600px;
+    border: 1px solid #dcdcdc;
+
+}
+
+
+.features_news {
+     float: left;
+     color: #708090;
+     margin-top: 100px;
+}
+
+.features_news h3 {
+    font-size: 30px;
+    margin-left: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.features_news p {
+    float: left;
+    margin-left: -34%;
+    width: 700px;
+
+}
+
+.features_news a {
+    float: right;
+    margin: 20px 122%;
+    text-align: justify;
+
+}
+.features_news h4 {
+    font-size: 25px;
+    text-align: left;
+    margin-left: -34%;
+    margin-bottom: 20px;
+}
+
+.features_details-view {
+    color: #708090;
+    width: 1000px;
+    margin-left: 24%;
+    padding-top: 100px;
+
+}
+
+footer {
+    width: 100%;
+	height: 150px;
+	margin: auto;
+	clear:both;
+    background: #dcdcdc;
+    border-top: 2px solid #dcdcdc;
+}
+
+footer .footer_style {
+    float: left;
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 200px;
+    display: block;
+
+}
+
+footer .footer_style ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #708090;
+    margin-right: 25px;
+    transition: transform .6s ease;
+    font-size: small;
+}
+
+footer .footer_style ul {
+    color: #708090;
+    transition: transform .6s ease;
+}
+
+footer .footer_style ul li:hover,
+footer .footer_style ul a:hover {
+    color: #42ddf5;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+
+footer .footer_style_right {
+    float: right;
+    text-align: left;
+    margin-top: 20px;
+    margin-right: 200px;
+    display: inline;
+
+
+}
+
+footer .footer_style_right ul {
+    color: #708090;
+    transition: transform .6s ease;
+}
+
+footer .footer_style_right ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #708090;
+    margin-right: 25px;
+    transition: transform .6s ease;
+}
+
+footer .footer_style_right ul li:hover,
+footer .footer_style_right ul a:hover {
+    color: #42ddf5;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.form-group {
+    margin-bottom: 10px;
+    margin-left: 250px;
+    width: 300px;
+    display: block;
+
+}
+
+.form-group label {
+    color:#708090;
+
+}
+
+.form-control-email {
+    width: 150px;
+    border-radius: 3%;
+    color:#708090;
+    background: #dcdcdc;
+    margin-top: 5px;
+    text-align: center;
+    font-size: small;
+}
+
+footer #sendEmail {
+    margin-left: 420px;
+    margin-top: -74px;
+    width: 90px;
+    font-size: small;
+    text-align: justify;
+    transition: transform .6s ease;
+
+}
+
+footer #sendEmail:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+    color: #42ddf5;
+
+}

@@ -1,0 +1,14 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Про нас{% endblock %}
+
+{% block content  %}
+ <div class="features">
+    <h3>Про MySite</h3>
+     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A beatae doloribus ea eius minima optio placeat possimus quia,
+         quo reprehenderit suscipit voluptate! Amet architecto cum eligendi pariatur quae rem similique? </p>
+      <p><img src="https://images.pexels.com/photos/3944426/pexels-photo-3944426.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="news">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet.</p>
+       <a  href="{% url 'contacts' %}"> <button  class="btn btn-outline-info">Зв'язатись з нами</button></a>
+  </div>
+{% endblock %}

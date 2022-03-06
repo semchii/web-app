@@ -1,0 +1,11 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block content  %}
+<div class="features">
+      <h3>Головна</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque varius morbi enim nunc faucibus a pellentesque sit amet.</p>
+       <a  href="{% url 'news_home' %}"> <button  class="btn btn-outline-info">Останні новини</button></a>
+  </div>
+{% endblock %}
